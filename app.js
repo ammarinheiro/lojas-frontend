@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export default function App() {
+export default function LojasApp() {
   const [loja, setLoja] = useState("");
   const [logada, setLogada] = useState(false);
   const [vendas, setVendas] = useState([]);
